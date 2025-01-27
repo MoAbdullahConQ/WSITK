@@ -1,6 +1,6 @@
 # wsitk_app
 
-wsitkApp
+A new Flutter project.
 
 ## Getting Started
 
