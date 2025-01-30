@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:wsitk_app/views/splash_screen.dart';
 
@@ -13,12 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'WSITK',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const SplashScreen(),
+      debugShowCheckedModeBanner: false,
+      // title: 'WSITK',
+      // theme: ThemeData(
+      //   primarySwatch: Colors.blue,
+      // ),
+      home: SafeArea(child: const SplashScreen()),
     );
   }
 }
-

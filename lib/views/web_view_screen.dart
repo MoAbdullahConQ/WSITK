@@ -92,20 +92,22 @@ class _WebViewScreenState extends State<WebViewScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('WSITK WebView'),
-      ),
-      body: Stack(
-        children: [
-          WebViewWidget(
-            controller: controller,
-          ),
-          if (isLoading)
-            const Center(
-              child: CircularProgressIndicator(), // دائرة تحميل بسيطة كبديل
+    return SafeArea(
+      child: Scaffold(
+        // appBar: AppBar(
+        //   title: const Center(child: Text('وسيطك')),
+        // ),
+        body: Stack(
+          children: [
+            WebViewWidget(
+              controller: controller,
             ),
-        ],
+            if (isLoading)
+              const Center(
+                child: CircularProgressIndicator(), // دائرة تحميل بسيطة كبديل
+              ),
+          ],
+        ),
       ),
     );
   }

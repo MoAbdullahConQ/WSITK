@@ -1,4 +1,4 @@
-package com.example.wsitk_app
+package com.my.app.wsitk
 
 import io.flutter.embedding.android.FlutterActivity
 
