@@ -5,6 +5,12 @@ void main() {
   runApp(const MyApp());
 }
 
+        //developed by : mohamed abdullah
+        //phones and whatsapp : 01155849512 & 01091859345
+        //linkedin : https://www.linkedin.com/in/muhammed-bn-abdullah/
+        //github : https://github.com/MoAbdullahConQ
+        //gmail : muhammed.abdullah.01155849512@gmail.com
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 

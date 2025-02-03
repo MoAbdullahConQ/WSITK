@@ -1,6 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
+
+        //developed by : mohamed abdullah
+        //phones and whatsapp : +201155849512 & +201091859345
+        //linkedin : https://www.linkedin.com/in/muhammed-bn-abdullah/
+        //github : https://github.com/MoAbdullahConQ
+        //gmail : muhammed.abdullah.01155849512@gmail.com
+
+
 class WebViewScreen extends StatefulWidget {
   const WebViewScreen({super.key});
 
